@@ -22,7 +22,10 @@ useHead({
             >Frontend Mentor</a
           >
         </div>
-        <div>Coded by <a href="#" target="_blank">Rey Garcia</a></div>
+        <div>
+          Coded by
+          <a href="https://github.com/brandeth" target="_blank">Rey Garcia</a>
+        </div>
       </div>
     </footer>
   </div>
