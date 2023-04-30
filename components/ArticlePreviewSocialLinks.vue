@@ -6,7 +6,12 @@ defineProps<{
 
 <template>
   <div class="ArticlePreview-socialLinks">
-    <a v-for="(link, index) in socialLinks" :key="index" :href="link.to">
+    <a
+      v-for="(link, index) in socialLinks"
+      :key="index"
+      :href="link.to"
+      target="_blank"
+    >
       <ArticlePreviewIcon
         :href="link.href"
         :width="link.width"
